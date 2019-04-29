@@ -1,0 +1,179 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+/*
+█░░ █▀▀█ █▀▀▄ █▀▀▄ ░▀░ █▀▀▄ █▀▀▀   █▀▀█ █▀▀█ █▀▀▀ █▀▀
+█░░ █▄▄█ █░░█ █░░█ ▀█▀ █░░█ █░▀█   █░░█ █▄▄█ █░▀█ █▀▀
+▀▀▀ ▀░░▀ ▀░░▀ ▀▀▀░ ▀▀▀ ▀░░▀ ▀▀▀▀   █▀▀▀ ▀░░▀ ▀▀▀▀ ▀▀▀*/
+
+
+.div1 {
+  height: 100%;
+}
+.div1bg {
+  height: 60%;
+  width: 100%;
+  /* Location of the image */
+  background-image: url(https://hdqwalls.com/download/skyscraper-buildings-covered-in-fog-3k-1440x900.jpg);
+  
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+  
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+  
+  /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+  
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+  
+  /* Set a background color that will be displayed
+     while the background image is loading */
+  background-color: #464646;
+}
+
+.d1text-container {
+  height: 50%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: 'Spinnaker', sans-serif;
+}
+
+.display-1 {
+  font-weight: 400;
+  font-size: 5vw;
+}
+
+.d2text-container {
+  margin: 0 auto;
+  margin-bottom: 30px;
+  margin-top: 75px;
+  width: 70%;
+  text-align: center;
+  font-family: 'Catamaran', sans-serif;
+  padding: 2.5%;
+  outline-width: 6px;
+  outline-style: outset;
+  outline-color: #A4B6DB;
+}
+
+.display-2 {
+  font-weight: 100;
+  font-size: 2vw;
+  letter-spacing: 3px;
+  padding: 10px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 621px) {
+  .display-1 {
+    font-size: 10vw;
+  font-weight: 400;
+}
+  .display-2 {
+    font-size: 6vw;
+}
+}
+
+
+/*
+█▀▀ █▀▀█ █▀▀█ █▀▄▀█   █▀▀ █▀▀ █▀▀
+█▀▀ █░░█ █▄▄▀ █░▀░█   █░░ ▀▀█ ▀▀█
+▀░░ ▀▀▀▀ ▀░▀▀ ▀░░░▀   ▀▀▀ ▀▀▀ ▀▀▀
+*/
+
+
+.bigdiv {
+  background-color: #D5D5D5;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.emailform {
+  background: white;
+  border: 1.5px solid #646464;
+
+  width: 35%;
+  padding: 35px;
+}
+
+.rowform {
+  display: flex;
+  justify-content: center;
+}
+
+.col-8 {
+  margin: 1%;
+}
+
+.form-group {
+  font-weight: 500;
+}
+
+
+.btn-container2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 8%;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  color: white;
+  width: 66.66%;
+}
+
+
+@media only screen and (max-width: 875px) {
+.emailform {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+} 
+
+@media only screen and (max-height: 571px) {
+.btn-container2 {
+  margin: 8%;
+}
+} 
+
+@media only screen and (min-width: 875px) {
+.emailform {
+  width: 60%;
+}
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 1210px) {
+.emailform {
+  width: 35%
+}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
